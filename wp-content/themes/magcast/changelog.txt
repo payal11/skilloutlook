@@ -1,0 +1,64 @@
+== CHANGE LOG ==
+= 1.0.7 =
+ - Tweak - Minor description edited in customizer
+ - Fix - Title attribute sanitized
+
+= 1.0.6 =
+ - Update - Newscast Theme name changed to Magcast as there is a conflict with same theme name outside wordpress.org
+
+= 1.0.5 =
+ - Fix - Deprecated message fixed for new PHP7 version
+ - Fix - Header text color options in the customizer issue fixed
+ - Fix - Unminified html5 version 3.7.3 added
+ - Tweak - Unwanted default value removed for slider
+ - Tweak -  Metabox added to posts/pages using proper hook
+ - Update - Theme Tags Updated and extra subject Tag removed
+
+= 1.0.4 =
+ - Fix - Site Title/Tagling and Site logo option move to site identity panel for better user experience
+ - Fix - Post display issue fixed while there is no feature image
+ - Tweak - Minor text edited in Customizer/Widgets option
+ - Update - POT file updated
+
+= 1.0.3 =
+ - Fix - Used get_the_archive_title in place of single_cat_title in magcast_header_title
+ - Fix - Custom CSS option and Unwanted customizer CSS removed to support WordPress 4.7 
+ - Fix - Sanitized/Validated in magcast_save_custom_meta $_POST fields before saving
+ - Fix - Sanitized date and author and untranslable string on magcast-widgets.php
+ - Fix - Escaped using esc_attr_e instead of esc_html_e in footer-extensions.php
+ - Fix - Used date_i18n() rather than date() in magcast-footer-info.php
+ - Fix - magcast_header_title() escaped in header-extensions.php
+ - Fix - Post Title/Content display issue fixed in Widget 2 Column Category
+ - Fix - Author link linked to Author posts rather than post link
+ - Fix - Post Link removed from single post title
+ - Update - Using action_hook for post category
+ - Update - Added Magcast Custom Image Sizes
+ - Update - Deprecated Header page code removed
+ - Tweak - Entire string included to build translatable strings while using sprintf
+ - Tweak - Some CSS modified for better responsiveness
+
+= 1.0.2 =
+ - Update - Some minor CSS edited
+ - Update - POT file updated
+ - Fix - Page Title displayed added on Frontpage/ Home Page (Blog Page)
+ - Tweak - NewsTicker (Highlighted Post) and Slider set to off by default
+ - Tweak - Footer info edited
+ - Fix - Heading Tag/Site logo tag fixed for better SEO
+ - Fix - Unwanted HTML tags and features removed from slider
+ - Fix - Missing escape and prefix added
+ - Fix - View Port issue fixed
+
+= 1.0.1 =
+ - Feature - Some feature added in customizer
+ - Feature - Highligted News feature added
+ - Feature - Carousel added for some widgets
+ - Feature - Featured slider added
+ - Feature - Sidebars added
+ - Fix - Prefix name changed
+ - Fix - Single page issue fixed
+ - Fix - WooCommerce sidebar issues fixed
+ - Update - Unwanted Code cleaned
+ - Update - POT file updated
+
+= 1.0 =
+ - Initial Release
